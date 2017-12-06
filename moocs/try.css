@@ -3,7 +3,7 @@ body{
 }
 .section1{
     
-    width:50%;
+    width:60%;
     float:left;
     height:100vh;
     border-right: 0.25vw solid #F5E5D6; 
@@ -18,7 +18,7 @@ body{
 }
 .section2{
     
-    width:50%;
+    width:40%;
     float:left;
     height:100vh;
     border-left: 0.25vw solid #000;  
