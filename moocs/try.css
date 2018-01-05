@@ -29,6 +29,22 @@ body{
 
 }
 
+#page {
+    padding: 100px;
+    width: 300px;
+}
+
+#header,
+#header-inner {
+    height: 100px;
+    width: 300px;
+}
+
+.scrolling {
+    position: fixed;
+    top: 0;
+}
+
 /* Popup container */
 .popup {
     position: relative;
