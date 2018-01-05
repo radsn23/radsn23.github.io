@@ -29,13 +29,9 @@ body{
 
 }
 
-#page {
-    padding: 100px;
-    width: 300px;
-}
 
-#header,
-#header-inner {
+
+#ipost{
     height: 100px;
     width: 300px;
 }
