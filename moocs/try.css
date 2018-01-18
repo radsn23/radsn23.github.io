@@ -1,33 +1,4 @@
-body{
-    
-}
-.section1{
-    
-    width:60%;
-    float:left;
-    height:100vh;
-    border-right: 0.25vw solid #F5E5D6; 
-    margin:0;
-    padding:0; 
-    overflow: auto;
-    overflow-wrap: break-word;
-    white-space: normal;
-    word-wrap: normal;
 
-    
-}
-.section2{
-    
-    width:40%;
-    float:left;
-    height:100vh;
-    border-left: 0.25vw solid #000;  
-    margin:0;
-    overflow: hidden;
-    white-space: normal;
-    word-wrap: break-word
-
-}
 
 .ht:hover .tooltip {
     display:block;
