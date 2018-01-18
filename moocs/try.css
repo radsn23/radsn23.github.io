@@ -1,14 +1,20 @@
 
-
-.ht:hover .tooltip {
-    display:block;
+.couponcode:hover .coupontooltip {
+    display: block;
 }
 
-.tooltip {
+
+.coupontooltip {
     display: none;
-    color: red;
-    margin-left: 28px; /* moves the tooltip to the right */
-    margin-top: 15px; /* moves it down */
+    background: #C8C8C8;
+    margin-left: 28px;
+    padding: 10px;
     position: absolute;
     z-index: 1000;
+    width:200px;
+    height:100px;
+}
+
+.couponcode {
+    margin:100px;
 }
