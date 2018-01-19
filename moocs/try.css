@@ -8,6 +8,7 @@
     max-width: 30%;
     background-color: #eee;
     overflow-y: auto;
+    overflow:scroll;
 }
 .stuck p {
     margin: 10px;
