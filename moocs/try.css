@@ -20,10 +20,10 @@
 
 .stuck {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 1000px;
+    right: 100px;
     max-height: 100%;
-    width: 190px;
+    width: 390px;
     background-color: #eee;
     overflow-y: auto;
 }
