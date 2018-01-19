@@ -2,7 +2,7 @@
 
 .stuck {
     position: fixed;
-    top: 0px;
+    top: 100px;
     right: 0px;
     max-height: 100%;
     max-width: 30%;
