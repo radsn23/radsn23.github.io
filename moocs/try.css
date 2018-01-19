@@ -1,34 +1,16 @@
-.couponcode:hover .coupontooltip {
-    display: block;
-}
 
-
-.coupontooltip {
-    display: none;
-    background: #C8C8C8;
-    margin-left: 28px;
-    padding: 10px;
-    position: absolute;
-    z-index: 1000;
-    width:200px;
-    height:100px;
-}
-
-.couponcode {
-    margin:100px;
-}
 
 .stuck {
     position: fixed;
-    top: 1000px;
-    right: 100px;
+    top: 0px;
+    right: 0px;
     max-height: 100%;
-    width: 50%;
+    max-width: 50%;
     background-color: #eee;
     overflow-y: auto;
 }
 .stuck p {
-    margin: 100px;
+    margin: 10px;
 }
 .not-stuck {
     margin-left: 200px;
