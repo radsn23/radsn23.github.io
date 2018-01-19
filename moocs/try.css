@@ -23,12 +23,12 @@
     top: 1000px;
     right: 100px;
     max-height: 100%;
-    width: 390px;
+    width: 3290px;
     background-color: #eee;
     overflow-y: auto;
 }
 .stuck p {
-    margin: 10px;
+    margin: 100px;
 }
 .not-stuck {
     margin-left: 200px;
