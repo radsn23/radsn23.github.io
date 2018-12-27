@@ -1,6 +1,7 @@
 name: Radhika Nikam
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+url: "http://radhikanikam.com"
 plugins:
   - jekyll-sitemap
 paginate: 7
