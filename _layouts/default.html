@@ -14,7 +14,11 @@
 
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+            <!--<link rel="stylesheet" type="text/css" href="/css/main.css">-->
+            <link rel="stylesheet" href="/css/base.css">
+            <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/style.css">
 		</head>
 		<body>
 			<nav>
@@ -26,7 +30,22 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+                <!-- <div class="container">-->
+    
+    <!-- Sidebar -->
+    <div class="three columns sidebar">
+      <nav>
+      <h3 id="logo" style="text-align:center;">
+          <!--<img src="images/lilian_squared_small.png" width="220" />-->
+      Radhika Nikam
+      </h3>
+      <ul>
+        <li><a href="https://radsn23.github.io/blog/">
+          <span class='red'>Blog</span>
+        </a></li>
+        </ul>
+      </nav>
+</div>	
 			{{ content }}
 			
 			</div><!-- /.container -->
