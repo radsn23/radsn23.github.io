@@ -1,8 +1,14 @@
 name: Radhika Nikam
+author: radsn23
+email: radhika23594@gmail.com
+description: Thoughts on stuff!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-url: "http://radhikanikam.com"
+url: "http://radsn23.github.io"
 plugins:
-  - jekyll-sitemap
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag  
+
 paginate: 7
 theme: minima
