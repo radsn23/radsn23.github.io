@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-            {% include analytics.html %}
+		<head>            {% include analytics.html %}
             <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131438644-1"></script>
 <script>
@@ -15,6 +11,10 @@
   gtag('config', 'UA-131438644-1');
 </script>
 
+
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
