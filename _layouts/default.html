@@ -15,7 +15,7 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
             <link rel="stylesheet" type="text/css" href="/css/main.css">
-           <!-- <link rel="stylesheet" href="/css/base.css">
+           <!-- 
             <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/style.css">-->
@@ -24,17 +24,20 @@
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
+                    <!--	<li><a href="/about">About</a></li>-->
                     <!--<li><a href="/cv">CV</a></li>-->
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
+        
+		<div class="container">
+            <div class="wrapper">
                 <!-- <div class="container">-->
    			{{ content }}
-			
+                </div>
 			</div><!-- /.container -->
-			<footer>
+			<div class="push"></div>
+            <footer>
 	    		<ul>
 	        		<li><a href="mailto:radhika23594@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/radsn23">github.com/radsn23</a></li>
