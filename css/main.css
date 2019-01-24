@@ -62,4 +62,11 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    line-height: 1.75em;
+    }
+ul.posts a {
+    color:#894429;
+    font-family: helvetica,arial,clean, sans-serif;
+    font-size: 90%; 
+    text-decoration:underline;
 }
