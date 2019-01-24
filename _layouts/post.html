@@ -16,7 +16,7 @@ layout: default
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         by <span itemprop="name">{{ site.author }}</span>
       </span>
-
+{% if page.comments %} • <a href="https://radsn23.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
       <span>
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -49,7 +49,7 @@ layout: default
     {% endif %}
   </div>
   {% include disqus.html %}
-  {% if page.comments %} • <a href="https://radsn23.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+  
   <!--
   {% if page.comments %}
     {% include disqus.html %}
